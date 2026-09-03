@@ -227,15 +227,6 @@ git merge --no-ff feature/user-profile
 #   =======
 #   >>>>>>> feature/user-profile (incoming branch)
 
-# Inspect files with unresolved conflicts
-git status
-
-# After manually resolving conflicts, stage the resolved files:
-git add resolved_file.cpp
-
-# Complete the merge
-git commit -m "merge: resolve conflicts and merge feature/user-profile"
-
 # Abort an ongoing merge and return to the state before merging began
 git merge --abort
 ```
